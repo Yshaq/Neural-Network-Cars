@@ -72,43 +72,43 @@ def generateRandomMap():
     startx, starty = 0, 3
     currentCell = maze.cell_at(startx, starty)
     
-    straight1 = pygame.image.load('Images\TracksMapGen\Straight1.png')
+    straight1 = pygame.image.load('Images/TracksMapGen/Straight1.png')
     straight1Rect = straight1.get_rect()
 
-    straight2 = pygame.image.load('Images\TracksMapGen\Straight2.png')
+    straight2 = pygame.image.load('Images/TracksMapGen/Straight2.png')
     straight2Rect = straight2.get_rect()
 
-    curve1 = pygame.image.load('Images\TracksMapGen\Curve1.png')
+    curve1 = pygame.image.load('Images/TracksMapGen/Curve1.png')
     curve1Rect = curve1.get_rect()
 
-    curve2 = pygame.image.load('Images\TracksMapGen\Curve2.png')
+    curve2 = pygame.image.load('Images/TracksMapGen/Curve2.png')
     curve2Rect = curve2.get_rect()
 
-    curve3 = pygame.image.load('Images\TracksMapGen\Curve3.png')
+    curve3 = pygame.image.load('Images/TracksMapGen/Curve3.png')
     curve3Rect = curve3.get_rect()
 
-    curve4 = pygame.image.load('Images\TracksMapGen\Curve4.png')
+    curve4 = pygame.image.load('Images/TracksMapGen/Curve4.png')
     curve4Rect = curve4.get_rect()
 
-    straight1Top = pygame.image.load('Images\TracksMapGen\Straight1Top.png')
+    straight1Top = pygame.image.load('Images/TracksMapGen/Straight1Top.png')
     straight1RectTop = straight1Top.get_rect()
 
-    straight2Top = pygame.image.load('Images\TracksMapGen\Straight2Top.png')
+    straight2Top = pygame.image.load('Images/TracksMapGen/Straight2Top.png')
     straight2RectTop = straight2Top.get_rect()
 
-    curve1Top = pygame.image.load('Images\TracksMapGen\Curve1Top.png')
+    curve1Top = pygame.image.load('Images/TracksMapGen/Curve1Top.png')
     curve1RectTop = curve1Top.get_rect()
 
-    curve2Top = pygame.image.load('Images\TracksMapGen\Curve2Top.png')
+    curve2Top = pygame.image.load('Images/TracksMapGen/Curve2Top.png')
     curve2RectTop = curve2Top.get_rect()
 
-    curve3Top = pygame.image.load('Images\TracksMapGen\Curve3Top.png')
+    curve3Top = pygame.image.load('Images/TracksMapGen/Curve3Top.png')
     curve3RectTop = curve3Top.get_rect()
 
-    curve4Top = pygame.image.load('Images\TracksMapGen\Curve4Top.png')
+    curve4Top = pygame.image.load('Images/TracksMapGen/Curve4Top.png')
     curve4RectTop = curve4Top.get_rect()
 
-    bg = pygame.image.load('Images\TracksMapGen\Background.png')
+    bg = pygame.image.load('Images/TracksMapGen/Background.png')
 
     while True:
 
